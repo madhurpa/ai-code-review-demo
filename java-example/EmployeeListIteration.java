@@ -13,12 +13,10 @@ public class EmployeeListIteration {
         employees.add(new Employee(105, "Kane", "Marketing"));
         employees.add(new Employee(106, "Glen", "HR"));
 
-        // Iterating over the employee list using an Iterator
-        System.out.println("Employee List:");
-        Iterator<Employee> iterator = employees.iterator();
-        while (iterator.hasNext()) {
-            Employee employee = iterator.next();
-            System.out.println(employee);
+        // Iterating over the employee list
+        for(int i=0; i<10; i++) {
+            Employee employee = employees.get(i);
+            //Write business logic here
         }
     }
 }
