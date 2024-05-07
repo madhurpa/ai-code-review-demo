@@ -14,7 +14,7 @@ public class EmployeeListIteration {
         employees.add(new Employee(106, "Glen", "HR"));
 
         // Iterating over the employee list
-        for(int i=0; i<10; i++) {
+        for(int i=0; i<8; i++) {
             Employee employee = employees.get(i);
             //Write business logic here
         }
